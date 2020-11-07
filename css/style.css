@@ -1,4 +1,25 @@
-* {
-    margin: 0;
-    padding: 0;
+.jumbotron {
+    height: 500px;
 }
+
+section {
+    height: 800px;
+}
+
+section li {
+    width: 205px;
+}
+
+section p {
+    font-size: 21px;
+}
+
+img {
+    width: 221px;
+    height: 225px;
+}
+
+footer {
+    height: 100px;
+}
+
