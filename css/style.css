@@ -1,3 +1,4 @@
+/* HEADER */
 .logo_img {
     width: 134px;
     height: 45px;
@@ -5,10 +6,21 @@
     top: 5px;
 }
 
+/* USED BOTTOM TWO FUNCTIONS IN TICKET JUMBOTRON SECTION TOO */
 .jumbotron {
     height: 500px;
 }
 
+.banner_text {
+    font-size: 50px;
+}
+
+header p {
+    font-size: 26px;
+}
+/* END OF HEADER */
+
+/* SECTION */
 section.speaker_block {
     height: 800px;
 }
@@ -35,11 +47,16 @@ section p {
 }
 
 .venue_img {
-    width: 471px;
-    height: 454px;
+    width: 571px;
+    height: 554px;
+    position: absolute;
+    top: 35px;
 }
+/* END OF SECTION */
 
+/* FOOTER */
 footer {
     height: 100px;
 }
+/* END OF FOOTER */
 
