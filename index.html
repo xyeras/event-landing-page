@@ -20,21 +20,25 @@
 
       <!-- NAVIGATION -->
       <nav class="row pl-2 pt-3">
-        <!-- justify content between -->
-        <p>moqups</p>
-        <ul class="list-unstyled offset-9 col-md-3 d-flex justify-content-around">
-          <li><a href="#">Speakers</a></li>
-          <li><a href="#">Tickets</a></li>
-          <li><a href="#">Venue</a></li>
+        <!-- alt: justify-content-between -->
+        <ul class="list-unstyled col-md-3 d-flex justify-content-start">
+          <li>
+            <img class="logo_img" src="img/default-logo.JPG" alt="moqups logo">
+          </li>
+        </ul>
+        <ul class="list-unstyled font-weight-bold offset-9 col-md-3 d-flex justify-content-around">
+          <li><a class="text-reset" href="#">Speakers</a></li>
+          <li><a class="text-reset" href="#">Tickets</a></li>
+          <li><a class="text-reset" href="#">Venue</a></li>
         </ul>
       </nav>
 
       <!-- JUMBOTRON -->
       <div class="jumbotron text-center d-flex align-items-center">
         <div class="container">
-        <h1 class="h1">Clear Statement about Your Event</h1>
-        <p class="lead">Secondary header providing additional information</p>
-        <a class="btn btn-primary btn-lg" href="#" role="button">GET THE TICKET</a>
+        <h1 class="h1 m-4">Clear Statement about Your Event</h1>
+        <p class="lead m-4">Secondary header providing additional information</p>
+        <a class="m-4 pl-5 pr-5 btn btn-primary btn-lg" href="#" role="button">GET THE TICKET</a>
         </div>
       </div>
 
@@ -44,32 +48,32 @@
   <section class="speaker_block container">
     <div class="row">
         <div class="col-md-6 p-3 offset-3 text-center d-flex flex-column">
-          <div class="h2">The Speakers</div>
-          <p>Write a few lines about the event speakers to highlight their expertise in the field.</p>
+          <div class="h2 mt-5">The Speakers</div>
+          <p class="mt-4 mb-4">Write a few lines about the event speakers to highlight their expertise in the field.</p>
         </div>
     </div>
-      <ul class="list-unstyled col d-flex justify-content-around">
+      <ul class="list-unstyled col mt4 d-flex justify-content-around">
         <li>
-          <img src="img/default-pfp.JPG" alt="Ruby Jennings">
-          <div class="h3">Ruby Jennings</div>
+          <img class="pfp_img" src="img/default-pfp.JPG" alt="Ruby Jennings">
+          <div class="h3 mt-3 mb-3">Ruby Jennings</div>
           <p class="text-secondary">Product Manager at Moqups. Runner, parent and coffee lover.</p>
           <p class="text-secondary">@username</p>
         </li>
         <li>
-          <img src="img/default-pfp.JPG" alt="Leon Hanson">
-          <div class="h3">Leon Hanson</div>
+          <img class="pfp_img" src="img/default-pfp.JPG" alt="Leon Hanson">
+          <div class="h3 mt-3 mb-3">Leon Hanson</div>
           <p class="text-secondary">Sales Manager at Moqups. Runner, parent and coffee lover.</p>
           <p class="text-secondary">@username</p>
         </li>
         <li>
-          <img src="img/default-pfp.JPG" alt="Meghan Stone">
-          <div class="h3">Meghan Stone</div>
+          <img class="pfp_img" src="img/default-pfp.JPG" alt="Meghan Stone">
+          <div class="h3 mt-3 mb-3">Meghan Stone</div>
           <p class="text-secondary">Marketing Specialist at Moqups. Runner, parent and coffee lover.</p>
           <p class="text-secondary">@username</p>
         </li>
         <li>
-          <img src="img/default-pfp.JPG" alt="Willie Perkins">
-          <div class="h3">Willie Perkins</div>
+          <img class="pfp_img" src="img/default-pfp.JPG" alt="Willie Perkins">
+          <div class="h3 mt-3 mb-3">Willie Perkins</div>
           <p class="text-secondary">UX Engineer at Moqups. Runner, parent and coffee lover.</p>
           <p class="text-secondary">@username</p>
         </li>
@@ -82,9 +86,9 @@
     <hr class="my-4">
     <div class="jumbotron text-center bg-white d-flex align-items-center">
       <div class="container">
-      <h1 class="h2">Get Your Ticket Today</h1>
-      <p class="lead">Each ticket includes: 20 speakers, 1000 participants, 15 sessions, 5 keynotes.</p>
-      <a class="btn btn-dark btn-lg" href="#" role="button">BUY TICKET $149</a>
+      <h1 class="h2 m-4">Get Your Ticket Today!</h1>
+      <p class="lead m-4">Each ticket includes: 20 speakers, 1000 participants, 15 sessions, 5 keynotes.</p>
+      <a class="m-4 pl-5 pr-5 btn btn-dark btn-lg" href="#" role="button">BUY TICKET $149</a>
       </div>
     </div>
   </section>
@@ -93,11 +97,11 @@
   <hr class="my-4">
   <section class="venue-block container">
     <div class="row">
-      <div class="col">
-        <h3>The Venue</h3>
-        <p>Our event will be held at the <span class="font-weight-bold">Main Office headquarters at Provost & East Building 145 City Road, London.</span></p>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.2151791279416!2d-0.090709084690815!3d51.527613017046775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761d1618b8bad5%3A0x36ee1976367a95e3!2sWeWork%20145%20City%20Rd%20-%20Coworking%20%26%20Office%20Space!5e0!3m2!1sen!2sus!4v1604714152712!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-        <img src="img/default-pfp.JPG" alt="venue">
+      <div class="col d-flex flex-start">
+        <div class="h3 mt-3">The Venue</h3>
+        <p class="mt-5 venue_p">Our event will be held at the <span class="font-weight-bold">Main Office headquarters at Provost & East Building 145 City Road, London.</span></p>
+        <iframe class="mt-4" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.2151791279416!2d-0.090709084690815!3d51.527613017046775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761d1618b8bad5%3A0x36ee1976367a95e3!2sWeWork%20145%20City%20Rd%20-%20Coworking%20%26%20Office%20Space!5e0!3m2!1sen!2sus!4v1604714152712!5m2!1sen!2sus" width="600" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        <img class="col venue_img" src="img/default-venue.JPG" alt="venue">
       </div>
     </div>
   </section>
@@ -106,13 +110,13 @@
   <footer class="container-fluid position-absolute bg-white">
     <hr class="my-4">
     <div class="row">
-      <div class="col">
-        <i class="fab fa-twitter"></i>
-        <i class="fab fa-instagram"></i>
-        <i class="fab fa-facebook"></i>
+      <div class="col ml-5">
+        <i class="fab fa-twitter mr-1"></i>
+        <i class="fab fa-instagram mr-1"></i>
+        <i class="fab fa-facebook mr-1"></i>
       </div>
-      <div class="col d-flex justify-content-end">
-        <p>&copy; Elizabeth Gaw</p>
+      <div class="col mr-5 d-flex justify-content-end">
+        <p>&copy; 2020 Elizabeth Gaw</p>
       </div>
     </div>
   </footer>
